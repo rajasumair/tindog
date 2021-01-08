@@ -1,0 +1,146 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 0%;
+}
+
+h1 {
+  font-family: Montserrat-black;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: montserrat-bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Montserrat-bold;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+
+}
+ p{
+   color: #8f8f8f;
+ }
+
+.navbar-brand{
+ font-family: Ubuntu;
+ font-size: 2.5rem;
+ font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 3rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-family: Montserrat-light;
+  font-size: 1.2rem;
+}
+
+.donwload-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+#features {
+  padding: 3% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.row {
+  padding: 7% 5%;
+
+}
+.features {
+  color: #ef8172;
+  text-align: center;
+  font-size: 3rem;
+}
+.featured-box {
+  text-align: center;
+}
+
+
+a:hover {
+color: #ff4c68;
+}
+
+/* tstimonial section */
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10% 20%;
+}
+.last {
+  font-family: montserrat;
+  font-weight: bold;
+  color: #fff;
+  font-size: 3rem;
+}
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 5% 10%;
+  line-height: 1.5;
+}
+.icons {
+  letter-spacing: 8px;
+}
+
+@media (max-width: 1028px) {
+.title-image {
+  position: static;
+  transform: rotate(0);
+}
+#title {
+  text-align: center;
+}
+
+}
